@@ -48,6 +48,12 @@
                                         <warSourceDirectory>WebContent</warSourceDirectory>
                                 </configuration>
                         </plugin>
+                        <!-- SonarQube Plugin Configuration -->
+                        <plugin>
+                                <groupId>org.sonarsource.scanner.maven</groupId>
+                                <artifactId>sonar-maven-plugin</artifactId>
+                                <version>3.9.1.2184</version> <!-- Real working version -->
+                        </plugin>
                 </plugins>
         </build>
         <dependencies>
@@ -58,13 +64,11 @@
                         <version>42.3.7</version>
                 </dependency>
 
-
                 <dependency>
                         <groupId>mysql</groupId>
                         <artifactId>mysql-connector-java</artifactId>
                         <version>8.0.28</version>
                 </dependency>
-
 
                 <dependency>
                         <groupId>javax.servlet</groupId>
