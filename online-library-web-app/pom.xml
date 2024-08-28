@@ -75,14 +75,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Kavetec Releases Nexus Repository</name>
-	      <url>http://3.88.248.154:8081/repository/library-webapp-release/</url>
+	      <name>Oyewole Releases Nexus Repository</name>
+	      <url>http://54.210.222.185:8081/repository/library-webapp-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Kavetec Snapshot Nexus Repository </name>
-	      <url>http://3.88.248.154:8081/repository/library-webapp-snapshot/</url>
+	      <name>Oyewole Snapshot Nexus Repository </name>
+	      <url>http://54.210.222.185:8081/repository/library-webapp-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
